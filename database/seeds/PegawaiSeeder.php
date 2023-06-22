@@ -18,26 +18,26 @@ class PegawaiSeeder extends Seeder
         $pegawai = [
             [
                 'id_pegawai' => '882761711',
-                'nip' => '1018008428',
+                'nip' => '215150601111001',
                 'nama' => 'Tuffahati Sholihah',
                 'id_golongan' => '1',
             ],
             [
                 'id_pegawai' => '617524901',
-                'nip' => '1018008454',
-                'nama' => 'Cryan Fajri',
+                'nip' => '215150600111002',
+                'nama' => 'Fahrezy Sanny',
                 'id_golongan' => '2',
             ],
             [
                 'id_pegawai' => '617524965',
-                'nip' => '1018008450',
-                'nama' => 'Youngk',
+                'nip' => '215150600111003',
+                'nama' => 'Luvena Cornelia',
                 'id_golongan' => '3',
             ],
             [
                 'id_pegawai' => '617524944',
-                'nip' => '1018008452',
-                'nama' => 'Sungjin',
+                'nip' => '215150600111004',
+                'nama' => 'Fahru Setiawan',
                 'id_golongan' => '4',
             ],
         ];

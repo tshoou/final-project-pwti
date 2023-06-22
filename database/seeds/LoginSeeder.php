@@ -17,26 +17,30 @@ class LoginSeeder extends Seeder
     {
         $login = [
             [
+                //admin
                 'id_pegawai' => '882761711',
-                'nip' => '1018008428',
+                'nip' => '215150601111001',
                 'id_golongan' => '1',
-                'password' => Hash::make('paksi123'),
+                'password' => Hash::make('passadmin'),
             ],
             [
+                //resepsionis
                 'id_pegawai' => '617524901',
-                'nip' => '1018008454',
+                'nip' => '215150600111002',
                 'id_golongan' => '2',
-                'password' => Hash::make('paksi123'),
+                'password' => Hash::make('passresepsionis'),
             ],
             [
+                //dokter
                 'id_pegawai' => '617524965',
-                'nip' => '1018008450',
+                'nip' => '215150600111003',
                 'id_golongan' => '3',
-                'password' => Hash::make('paksi123'),
+                'password' => Hash::make('passdokter'),
             ],
+            //kasir
             [
                 'id_pegawai' => '617524944',
-                'nip' => '1018008452',
+                'nip' => '15150600111004',
                 'id_golongan' => '4',
                 'password' => Hash::make('paksi123'),
             ],

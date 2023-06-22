@@ -19,8 +19,4 @@ class JadwalDokter extends Model
     {
         return $this->hasMany(RekamMedis::Class, 'id_dokter');
     }
-    // public function user()
-    // {
-    //     return $this->belongsTo(User::Class, 'id_pegawai');
-    // }
 }

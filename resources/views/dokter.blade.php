@@ -6,7 +6,7 @@
       <h1>Dokter</h1>
   </div>
   </div>
-<div class="min-height-100vh my-5 container-fluid">
+<div class="min-height-100vh container">
   <h1 class="title-sec">Temukan dokter</h1>
   <div class="row mt-5 d-flex justify-content-between">
     <div class="col-md-3">

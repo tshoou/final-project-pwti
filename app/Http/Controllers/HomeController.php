@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
+use App\Pegawai;
+use App\Pasien;
+use App\Dokter;
+use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
@@ -31,7 +33,10 @@ class HomeController extends Controller
     }
     public function adminHome()
     {
-        return view('admin/adminHome');
+        $listPegawai = Pegawai::whereNotIn('id_golongan', ['3'])->paginate(10);
+        $listPasien = Pasien::get();
+        $listDokter = Dokter::get();
+        return view('admin/adminHome', ['Pegawai' => $listPegawai, 'Pasien' => $listPasien, 'Dokter' => $listDokter]);
     }
     public function dokterhome()
     {

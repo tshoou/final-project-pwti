@@ -24,7 +24,7 @@ class dokterSeeder extends Seeder
             'jumat' => '-',
             'sabtu' => '22.00-21.00',
             'minggu' => '22.00-21.00',
-            'biaya_jasa' => '50000',
+            // 'biaya_jasa' => '50000',
         ]);
     }
 }

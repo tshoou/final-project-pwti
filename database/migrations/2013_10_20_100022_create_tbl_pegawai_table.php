@@ -16,7 +16,7 @@ class CreateTblPegawaiTable extends Migration
         Schema::create('tbl_pegawai', function (Blueprint $table) {
             $table->integer('id_pegawai')->unsigned();
             $table->primary('id_pegawai');
-            $table->integer('nip');
+            $table->string('nip');
             $table->string('nama', 75);
             $table->string('jenis_kelamin', 11)->nullable();
             $table->text('alamat')->nullable();

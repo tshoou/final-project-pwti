@@ -15,20 +15,20 @@
             </p>
             <div class="row">
                 <div class="col-12 col-md-4 col-sm-12">
-                          <div class="card">
-                            <div class="card-header">
-                              <h4>Total Pegawai</h4>
-                            </div>
-                            <div class="card-body">
-                              <div class="empty-state">
-                                <div class="empty-state-icon">
-                                  <h1 class="text-white">{{$Pegawai->count()}}</h1>
-                                </div>
-                              </div>
-                            </div>
+                  <div class="card">
+                      <div class="card-header">
+                        <h4>Total Pegawai</h4>
+                      </div>
+                      <div class="card-body">
+                        <div class="empty-state">
+                          <div class="empty-state-icon">
+                            <h1 class="text-white">{{$Pegawai->count()}}</h1>
                           </div>
                         </div>
-                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
     <div class="row">
         <div class="col-12 col-md-6 col-lg-12">
             <div class="card">

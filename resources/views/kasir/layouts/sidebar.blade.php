@@ -1,7 +1,7 @@
 <div class="main-sidebar">
     <aside id="sidebar-wrapper">
       <div class="sidebar-brand">
-        <a href="{{ route('kasir.home') }}">Reovelnt</a>
+        <a href="{{ route('kasir.home') }}">KlinikKita</a>
       </div>
       <div class="sidebar-brand sidebar-brand-sm">
         <a href="{{ route('kasir.home') }}">RV</a>
