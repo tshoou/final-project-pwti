@@ -17,10 +17,10 @@ class RekamMedis extends Model
     {
         return $this->belongsTo(JadwalDokter::class, 'id_dokter');
     }
-    // public function kasir()
-    // {
-    //     return $this->belongsTo(Pegawai::class, 'id_kasir');
-    // }
+    public function kasir()
+    {
+        return $this->belongsTo(Pegawai::class, 'id_kasir');
+    }
     public function rekamobat()
     {
         return $this->hasMany(RekamMedis::Class, 'id_rekam_medis');

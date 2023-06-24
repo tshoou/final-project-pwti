@@ -1,5 +1,5 @@
 @extends('dokter.layouts.master')
-@section('title', 'Klinik Reovelnt')
+@section('title', 'KliniKita')
 @section('section-header')
 <h1>Profil Saya</h1>
 <div class="section-header-breadcrumb">

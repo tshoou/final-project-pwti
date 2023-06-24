@@ -1,5 +1,5 @@
 @extends('kasir.layouts.master')
-@section('title', 'Klinik Reovelnt')
+@section('title', 'KliniKita')
 @section('section-header')
     <h1>Data Pembayaran</h1>
     <div class="section-header-breadcrumb">

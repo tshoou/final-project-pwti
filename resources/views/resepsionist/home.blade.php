@@ -1,5 +1,5 @@
 @extends('resepsionist.layouts.master')
-@section('title', 'Klinik Reovelnt')
+@section('title', 'KlinikKita')
 @section('section-header')
     <h1>Dashboard</h1>
 @endsection

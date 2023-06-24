@@ -1,5 +1,5 @@
 @extends('dokter.layouts.master')
-@section('title', 'Klinik Reovelnt')
+@section('title', 'KliniKita')
 @push('page-style')
     <style>
         .dataTables_filter {

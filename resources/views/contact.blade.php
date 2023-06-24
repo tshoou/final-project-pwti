@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Klinik Reovelnt | Detail Dokter')
+@section('title', 'KliniKita | Detail Dokter')
 @section('content')
 <div class="main-headerr">
   <div class="container">

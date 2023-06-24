@@ -8,7 +8,7 @@
           <h3>KliniKita</h3>
         </div>
         <div class="col-md-6 d-flex justify-content-end align-items-center">
-          <p>© 2021 Klinik Reovelnt</p>
+          <p>Copyright &copy; Klinikita 2023</p>
         </div>
       </div>
     </div>

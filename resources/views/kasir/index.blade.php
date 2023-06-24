@@ -1,5 +1,5 @@
 @extends('kasir.layouts.master')
-@section('title', 'Rumah Sakit Brigham')
+@section('title', 'KliniKita')
 @section('section-header')
     <h1>Dashboard</h1>
 @endsection

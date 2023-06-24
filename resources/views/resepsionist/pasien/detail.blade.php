@@ -1,5 +1,5 @@
 @extends('resepsionist.layouts.master')
-@section('title', 'Klinik Reovelnt')
+@section('title', 'KliniKita')
 @section('section-header')
     <h1>Detail Pasien</h1>
     <div class="section-header-breadcrumb">

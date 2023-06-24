@@ -1,5 +1,5 @@
 @extends('admin.layouts.master')
-@section('title', 'Klinik Reovelnt')
+@section('title', 'KliniKita')
 @section('section-header')
     <h1>Edit Akun</h1>
     <div class="section-header-breadcrumb">

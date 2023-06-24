@@ -1,5 +1,5 @@
 @extends('resepsionist.layouts.master')
-@section('title', 'Klinik Reovelnt')
+@section('title', 'KliniKita')
 @section('section-header')
     @if ($pegawai->id_golongan == 3)
     <h1>Dokter</h1>
